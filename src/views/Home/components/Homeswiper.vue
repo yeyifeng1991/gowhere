@@ -1,15 +1,15 @@
 <template>
-  <div class="home">
+  <div class="home-swiper">
    {{msg}}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Homeswiper',
   data () {
     return {
-      msg: 'home界面'
+      msg: 'Homeswiper界面'
     }
   }
 }
