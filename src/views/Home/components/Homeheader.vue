@@ -6,7 +6,7 @@
     <!-- <i class="iconfont icon-fanhui"></i> -->
    </div>
    <div class="header-input"> 
-     内容
+     输入城市经典
      <!-- <i class="iconfont icon-xiazai17"></i>   -->
    </div>
    <div class="header-right">
@@ -30,8 +30,10 @@ export default {
 <style  lang = "scss" scoped>
   .homeheader
   {
-      height :.86rem;
       display :flex;
+      line-height :.86rem;
+      background: #00bdc4;
+      color: #fff;
      .headerleft
      {
       float :left;
@@ -39,12 +41,22 @@ export default {
      }
      .header-input
      {
-      flex :1
+      flex :1;
+      height: .64rem;
+      line-height: .64rem;
+      margin-top: .12rem;
+      margin-bottom: .12rem;
+      /* margin-top:  */
+      background: #fff;
+      border-radius: .1rem;
+      color: #ccc;
+      
      }  
      .header-right
      {
       width :1.24rem;
-      float :right
+      float :right;
+      text-align: center;
      }
   }
 </style>
