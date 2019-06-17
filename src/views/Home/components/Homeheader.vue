@@ -1,13 +1,17 @@
 <template>
-  <div class="home_header">
-   <div class="header-left">
-    <i class="iconfont icon-fanhui"></i>
+<!-- 头部尺寸 86px -->
+  <div class="homeheader">
+   <div class="headerleft">
+     返回
+    <!-- <i class="iconfont icon-fanhui"></i> -->
    </div>
-   <div class="header-center">
-     <i class="iconfont icon-xiazai17"></i>  
+   <div class="header-input"> 
+     内容
+     <!-- <i class="iconfont icon-xiazai17"></i>   -->
    </div>
    <div class="header-right">
-       <i class="iconfont icon-jiantou"></i>
+     城市
+       <!-- <i class="iconfont icon-jiantou"></i> -->
    </div>
   </div>
 </template>
@@ -23,13 +27,24 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  .home_header 
+<style  lang = "scss" scoped>
+  .homeheader
   {
-   height: 0.86rem;
-   background: red;
-   display :flex
+      height :.86rem;
+      display :flex;
+     .headerleft
+     {
+      float :left;
+      width :.64rem
+     }
+     .header-input
+     {
+      flex :1
+     }  
+     .header-right
+     {
+      width :1.24rem;
+      float :right
+     }
   }
-
 </style>

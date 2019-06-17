@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import Homeheader from './components/Homeheader'
+import Homeheader from './components/Homeheader' // 局面组件
 import Homeswiper from './components/Homeswiper'
 export default {
   name: 'Home',
-  components:
+  components: // 声明组件
   {
     Homeheader,
     Homeswiper

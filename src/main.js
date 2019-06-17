@@ -4,10 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 // 在入口文件中引入基本样式
-import '@/styles/reset.css'
-import '@/styles/border.css'
+import 'styles/reset.css'
+import 'styles/border.css'
 import FastClick from 'fastclick'
-import 'iconfonts/iconfont.css'
+// import 'iconfonts/iconfont.css'
 
 Vue.config.productionTip = false
 FastClick.attach(document.body)
